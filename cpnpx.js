@@ -22,5 +22,5 @@ const env = {
 };
 
 // can not put inside run, ENOENT
-require('./run')(env, 'pnpm');
+require('./run')(env, 'pnpx');
 

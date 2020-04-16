@@ -2,7 +2,7 @@
 
 const spawn = require('cross-spawn');
 
-module.exports = function (env) {
+module.exports = function (env, command) {
   const processEnv = process.env;
   for (const k in processEnv) {
     if (!processEnv.hasOwnProperty(k) || env[k]) {
@@ -10,7 +10,7 @@ module.exports = function (env) {
     }
     env[k] = processEnv[k];
   }
-  spawn('pnpm', process.argv.slice(2), {
+  spawn(command, process.argv.slice(2), {
     env: env,
     cwd: process.cwd(),
     stdio: 'inherit',
