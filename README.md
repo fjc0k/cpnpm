@@ -1,20 +1,20 @@
-# tyarn
+# cpnpm
 
-yarn using npm.taobao.org as registry
+pnpm using npm.taobao.org as registry
 
 
 ## usage
 
 ```
-npm install yarn tyarn -g
+npm install pnpm cpnpm -g
 ```
 
 ### install
 
-same with `yarn`, replace `yarn` with `tyarn`, for example:
+same with `pnpm`, replace `pnpm` with `cpnpm`, for example:
 
 ```
-tyarn add antd
+cpnpm add antd
 ```
 
 ### publish

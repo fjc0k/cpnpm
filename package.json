@@ -1,22 +1,22 @@
 {
-  "name": "tyarn",
-  "version": "0.1.1",
-  "description": "yarn using npm.taobao.org as registry",
+  "name": "cpnpm",
+  "version": "0.0.1",
+  "description": "pnpm using npm.taobao.org as registry",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "tyarn": "index.js"
+    "cpnpm": "index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:yiminghe/tyarn.git"
+    "url": "git@github.com:fjc0k/cpnpm.git"
   },
   "keywords": [
-    "yarn",
+    "pnpm",
     "taobao"
   ],
-  "author": "yiminghe@gmail.com",
+  "author": "fjc0kb@gmail.com",
   "license": "MIT",
   "dependencies": {
     "cross-spawn": "^4.0.2"

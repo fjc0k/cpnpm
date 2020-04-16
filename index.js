@@ -18,6 +18,7 @@ const env = {
   FLOW_BINARY_MIRROR: 'https://github.com/facebook/flow/releases/download/v',
   npm_config_registry: registry,
   yarn_registry: registry,
+  pnpm_registry: registry,
 };
 
 // can not put inside run, ENOENT

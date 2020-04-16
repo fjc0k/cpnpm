@@ -10,7 +10,7 @@ module.exports = function (env) {
     }
     env[k] = processEnv[k];
   }
-  spawn('yarn', process.argv.slice(2), {
+  spawn('pnpm', process.argv.slice(2), {
     env: env,
     cwd: process.cwd(),
     stdio: 'inherit',
