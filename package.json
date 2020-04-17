@@ -7,7 +7,9 @@
   },
   "bin": {
     "cpnpm": "index.js",
-    "cpnpx": "cpnpx.js"
+    "cpnpx": "cpnpx.js",
+    "tpm": "index.js",
+    "tpx": "cpnpx.js"
   },
   "repository": {
     "type": "git",
